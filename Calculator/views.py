@@ -17,6 +17,13 @@ def calculator():
         'calculator.html'
     )
 
+@app.route('/about_me')
+def about_me():
+    """Renders the home page."""
+    return render_template(
+        'about_me.html'
+    )
+
 @app.route('/home')
 def home():
     """Renders the home page."""
