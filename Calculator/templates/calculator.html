@@ -7,20 +7,26 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="display">
-            <input class="form-control" id="input_html" type="text">
-            <button class="dark_mode_btn"><i class="fa fa-moon-o" aria-hidden="true"></i></button>
-            <p id="history"><i class="fa fa-history" aria-hidden="true"></i>&nbsp;History</p>
+    <footer class="bg-light text-center text-lg-start">
+        <div id="div_calc" class="main">
+            <div class="display">
+                <input class="form-control" id="input_html" type="text">
+                <button class="dark_mode_btn"><i class="fa fa-moon-o" aria-hidden="true"></i></button>
+                <p id="history"><i class="fa fa-history" aria-hidden="true"></i>&nbsp;History</p>
 
+            </div>
+            <div class="buttons"> <button id="clear">C</button> <button id="delete_single_num"><i class="fa fa-scissors" aria-hidden="true"></i></button> <button id="Normal_btn">/</button> <button id="Normal_btn">*</button> </div>
+            <div class="buttons"> <button id="Normal_btn">7</button> <button id="Normal_btn">8</button> <button id="Normal_btn">9</button> <button id="Normal_btn">-</button> </div>
+            <div class="buttons"> <button id="Normal_btn">4</button> <button id="Normal_btn">5</button> <button id="Normal_btn">6</button> <button id="Normal_btn">+</button> </div>
+            <div class="buttons"> <button id="Normal_btn">1</button> <button id="Normal_btn">2</button> <button id="Normal_btn">3</button> <button id="Normal_btn">.</button> </div>
+            <div class="buttons"> <button id="Normal_btn">0</button> <button id="Normal_btn">00</button> <button id="equalTo">JS solve</button> </div>
         </div>
-        <div class="buttons"> <button id="clear">C</button> <button id="delete_single_num"><i class="fa fa-scissors" aria-hidden="true"></i></button> <button id="Normal_btn">/</button> <button id="Normal_btn">*</button> </div>
-        <div class="buttons"> <button id="Normal_btn">7</button> <button id="Normal_btn">8</button> <button id="Normal_btn">9</button> <button id="Normal_btn">-</button> </div>
-        <div class="buttons"> <button id="Normal_btn">4</button> <button id="Normal_btn">5</button> <button id="Normal_btn">6</button> <button id="Normal_btn">+</button> </div>
-        <div class="buttons"> <button id="Normal_btn">1</button> <button id="Normal_btn">2</button> <button id="Normal_btn">3</button> <button id="Normal_btn">.</button> </div>
-        <div class="buttons"> <button id="Normal_btn">0</button> <button id="Normal_btn">00</button> <button id="equalTo">JS solve</button> </div>
-    </div>
-
+        <div id="nothing"></div>
+        <div id="div_footer" class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <b>Source on:</b>
+            <a id="github" style="color:black" class="text-dark" href="https://github.com/DanilaAnikin/calculator/tree/flask">Github.com</a>
+        </div>
+    </footer>
     <script src="/static/scripts/script.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
 </body>

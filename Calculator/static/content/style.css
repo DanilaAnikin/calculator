@@ -6,6 +6,28 @@
     background: none;
 }
 
+
+#div_calc {
+    margin-top: 200px;
+}
+
+#div_footer {
+    background-color: #808080;
+    height: 40px;
+    text-align: center;
+}
+
+#nothing {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    width: 312.781px;
+    height: 27px;
+}
+
+#github {
+    text-align: center;
+}
+
 * {
     margin: 0;
     padding: 0;

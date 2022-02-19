@@ -9,7 +9,6 @@ from Calculator.Backend import Solver
 
 solver = Solver()
 
-@app.route('/')
 @app.route('/calculator')
 def calculator():
     """Renders the home page."""
@@ -17,6 +16,7 @@ def calculator():
         'calculator.html'
     )
 
+@app.route('/')
 @app.route('/about_me')
 def about_me():
     """Renders the home page."""
